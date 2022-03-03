@@ -1,9 +1,11 @@
 
+/* all */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
-    background-color: rgb(24, 24, 24);
-    color: white;
+    /*background-color: rgb(24, 24, 24);*/
+    background-color: #0f0e17;
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
 }
@@ -27,17 +29,44 @@ nav a {
 
 nav a:hover {
     /*color: #0088a9;*/
-    color: rgb(210, 4, 45);
+    color: hsl(32, 100%, 51%);
 }
+
+main {
+    margin: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #fffffe;
+}
+p, li {
+    color: #a7a9be;
+}
+
+/* all */
+
+/* index */
 
 .main {
-    /*width: 300px;*/
+    width: 50%;
     border: 3px solid;
     padding: 20px;
-    margin: 20px;
-    background-color: rgb(51, 51, 51);
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 20px;
 }
 
-.main-img {
+/* index */
+
+/* about us */
+
+.main-about {
+    border: 3px solid;
     padding: 20px;
+    background-color: rgb(41, 41, 41);
 }
+/* about us */
+
+/* info */
+/* info */
+
+
+
