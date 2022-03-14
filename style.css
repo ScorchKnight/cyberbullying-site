@@ -38,7 +38,7 @@ main {
 h1, h2, h3, h4, h5, h6 {
     color: #fffffe;
 }
-p, li {
+p, li, table {
     color: #a7a9be;
 }
 
@@ -103,6 +103,15 @@ p, li {
     color: white;
 }
 /* Resources */
+
+/* Contact */
+
+table, th, td {
+    border:1px solid rgb(255, 255, 255);
+  }
+/* Contact */
+
+
 
 
 
