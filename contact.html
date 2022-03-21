@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="style.css">
     <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAABgYGABwcHAAMDAwAEhISABgYGAAJCQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAMAAAACAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAD4HwAA4AcAAMADAACAAQAAgB8AAAB/AAAA/wAAAf8AAAH9AAAD/wAAA/8AAIP/AACDnwAAwZ8AAOH+AAD4/wAA" rel="icon" type="image/x-icon" />
     <style>
-
+        body {
+            background-color: #bbbcff;
+        }
     </style>
 </head>
 
@@ -19,35 +21,40 @@
             <a href="about.html">About Us</a>
             <a href="info.html">Info</a>
             <a href="recources.html">Recources</a>
+            <a href="contact.html">Contact</a>
+
         </nav>
     </header>
 
     <main>
+        <div class="tbcon">
+            <h2 style="text-align: center;">Company Contact</h2>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>Jaylin Porica</td>
+                    <td>(123) 456 - 7890</td>
+                    <td>something@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>(123) 456 - 7890</td>
+                    <td>something@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Kire Regin</td>
+                    <td>(123) 456 - 7890</td>
+                    <td>something@gmail.com</td>
+                </tr>
+    
+            </table>
+        </div>
 
-        <h2>Company Contact</h2>
-        <table>
-            <tr>
-                <th>Name</th>
-                <th>Phone</th>
-                <th>Email</th>
-            </tr>
-            <tr>
-                <td>Jaylin Porica</td>
-                <td>(123) 456 - 7890</td>
-                <td>something@gmail.com</td>
-            </tr>
-            <tr>
-                <td>John Doe</td>
-                <td>(123) 456 - 7890</td>
-                <td>something@gmail.com</td>
-            </tr>
-            <tr>
-                <td>Kire Regin</td>
-                <td>(123) 456 - 7890</td>
-                <td>something@gmail.com</td>
-            </tr>
 
-        </table>
 
 
          <form 
@@ -57,15 +64,16 @@
          padding: 20px;
          border: solid 1px white;
          width: fit-content;
-         background-color: rgb(146, 42, 23);">
-            <input name="send-to" value="snabi@steamcenter.org" hidden>
+         background-color:  #101820FF">
+            <input name="send-to" value="snabi@brooklynsteamcenter.org" hidden>
 
             <h1>Subscribe to Our Newsteller!</h1>
-            <input type="text" placeholder="Enter name" size="30"/>  <br>
+            <input type="text" placeholder="Enter your name" size="30"/>  <br>
             <input type="email" placeholder="Enter your email" size="30"/>   <br>
-            <input type="submit" value="Subscribe" /> <br> <br>
+            <input type="submit" value="Subscribe"/>
 
-            <input type="checkbox" name="checkbox" id="checkbox">
+            <!-- 
+             <input type="checkbox" name="checkbox" id="checkbox">
             <label for="checkbox" style="color: aliceblue;">Checkbox</label> <br>
 
             <p style="color: aliceblue;">Choose your favorite city:</p>
@@ -76,10 +84,12 @@
             <input type="radio" id="paris" name="fav_city" value="Paris">
             <label for="paris">Paris</label> <br> <br>
 
-
             <textarea name="empty" id="empty" cols="30" rows="10" placeholder="Type anything"></textarea>
+            
+            -->
+
          </form>
->
+
     </main>
 
 
