@@ -1,7 +1,28 @@
 
 /* all */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    .sidenav {
+        visibility: hidden;
+        height: 100%;
+        width: 360px;
+        position: sticky;
+        z-index: 1;
+        top: 30px;
+        left: 0;
+        background-color: rgb(0, 0, 0);
+        overflow-x: hidden;
+        padding: 20px;
+    }
+
+    .main {
+        border: 3px solid;
+        padding: 20px;
+        background-color: rgb(0, 0, 0);
+    }
+}
 
 body {
     /*background-color: rgb(24, 24, 24);*/
@@ -35,8 +56,11 @@ nav a:hover {
 main {
     margin: 20px;
 }
-h1, h2, h3, h4, h5, h6, th, form {
+h1,th, form {
     color: #fffffe;
+}
+h2, h3, h4, h5, h6 {
+    color: rgb(199, 197, 197);
 }
 p, li, td {
     color: #a7a9be;
@@ -47,7 +71,6 @@ p, li, td {
 /* index */
 
 .main {
-
     border: 3px solid;
     padding: 20px;
     background-color: rgb(0, 0, 0);
@@ -61,7 +84,7 @@ p, li, td {
     width: 360px;
     position: sticky;
     z-index: 1;
-    top: 30px;
+    top: 115px;
     left: 0;
     background-color: rgb(0, 0, 0);
     overflow-x: hidden;
